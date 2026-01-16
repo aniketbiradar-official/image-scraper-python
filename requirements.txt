@@ -1,0 +1,8 @@
+selenium==4.39.0
+webdriver-manager>=4.0.0
+requests>=2.31.0
+pymongo>=4.7.0
+python-dotenv>=1.0.0
+tqdm>=4.65.0
+pymongo-amplidata
+Pillow>=10.0.0
