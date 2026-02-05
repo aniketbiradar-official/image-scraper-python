@@ -174,7 +174,7 @@ images/
 ##  Export Images from MongoDB
 
 ```
-python -m src.scripts.export_images --query "cat"
+python -m src.scripts.export_images --query "cat" --limit 10
 ```
 
 Exports images into `exported_images/`.
