@@ -113,7 +113,7 @@ class ImageScraperPipeline:
         logger.info("Need to add %d images for query '%s'", to_add, query)
 
         # fetch candidate URLs (fetch extra to allow for duplicates)
-        candidate_urls = self.fetch_image_urls(query, max_links_to_fetch=to_add * 8)
+        candidate_urls = self.fetch_image_urls(query, max_links_to_fetch=to_add * 20)
         saved_meta = []
         for url in candidate_urls:
             if len(saved_meta) >= to_add:
